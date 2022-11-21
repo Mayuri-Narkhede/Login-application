@@ -8,6 +8,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/auth" element={<Auth />} />
+        <Route path="/file" element={<File />} />
       </Routes>
     </BrowserRouter>
   )
